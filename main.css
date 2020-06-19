@@ -6,7 +6,7 @@ form, input, div {
 }
 
 body {
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
 }
 
 nav {
@@ -14,10 +14,6 @@ nav {
     height: 80px;
 /*    position: fixed;
     width: 100%;*/
-}
-
-header {
-    height: 70vh;
 }
 
 .title {
@@ -52,7 +48,45 @@ header {
 }
 
 
-header .container {
-    padding: 100px 80px;
+header {
+    height: 85vh;
+    color: white;
+    background-image: url(images/laptop.jpg);
+    background-size: cover;
 }
 
+header .container {
+    padding: 100px 80px;
+    width: 50%;
+}
+
+.tagline {
+    font-size: 50px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.describe {
+    font-weight: 300;
+    font-size: 25px;
+    padding-bottom: 20px;
+    display: block;
+}
+
+.button-hero {
+    display: inline-block;
+    color: #009bd6;
+    padding: 17px 50px;
+    background: #f5f5fb;
+    border: 1px solid #f5f5fb;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 20px;
+}
+
+.button-hero:hover {
+    color: #f5f5fb;
+    background: none;
+}
