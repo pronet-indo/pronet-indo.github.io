@@ -1,0 +1,58 @@
+html, body, ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lato";
+}
+
+nav {
+    background-color: #009bd6;
+    height: 80px;
+/*    position: fixed;
+    width: 100%;*/
+}
+
+header {
+    height: 70vh;
+}
+
+.title {
+    float: left;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 900;
+    color: white;
+}
+
+.menu {
+    float: right;
+}
+
+.menu, .title {
+    padding: 25px 60px;
+}
+
+.menu, .menu li, .title {
+    display: inline-block;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    margin: auto 20px;
+    font-size: 20px;
+}
+
+.menu li a:hover {
+    font-weight: 700;
+}
+
+
+header .container {
+    padding: 100px 80px;
+}
+
