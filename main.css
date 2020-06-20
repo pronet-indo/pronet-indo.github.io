@@ -227,6 +227,15 @@ main .container {
     margin-bottom: 80px;
     margin-top: 90px;
     clear: both;
+    color: #44454f;
+}
+
+.contact h2 {
+    font-size: 40px;
+}
+
+.contact h3 {
+    font-size: 24px;
 }
 
 .contact h2, .info {
