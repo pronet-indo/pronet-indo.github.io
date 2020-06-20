@@ -127,7 +127,14 @@ main .container {
 	float: right;
 	box-shadow: 0 10px 30px rgba(112,134,230,.2);
 	z-index: 1;
+    width: 600px;
 }
+
+.about-us-img img {
+    width: 100%;
+    display: block;
+}
+
 .main-btn{
 	display: inline-block;
     color: #f5f5fb;
@@ -198,6 +205,7 @@ main .container {
 .service-txt h2 a {
 	color:#44454f;	
 	font-size:24px;
+    text-decoration: none;
 }
 
 .service-txt p {
