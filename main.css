@@ -24,7 +24,7 @@ nav {
     color: white;
 }
 
-.menu {
+.menu, .menu-footer {
     float: right;
 }
 
@@ -91,42 +91,53 @@ header .container {
     background: none;
 }
 
-
-/* CSS Mbak Bi */
-.heading h2 {
-text-align: center;
-padding: 10px 0px;
+/* FOOT */
+.contact {
+    margin-bottom: 80px;
+    margin-top: 90px;
 }
 
-.sub-heading p {
-text-align: center;
-padding-bottom: 10px;
-border-bottom:1px solid #dee7ec;
+.contact h2, .info {
+    text-align: center;
 }
 
-.head h3 {
-margin-top: 50px;
-padding-bottom: 30px;
+.contact h2, .contact h3 {
+    padding-bottom: 15px;
 }
 
-.contact-info {
-display: inline-block;
-float: left;
-margin-left: 200px;
+.contact-container {
+    display: flex;
+    justify-content: space-between;
 }
 
-.fa-ul {
-padding-bottom: 30px;
+.contact ul li {
+    margin-bottom: 8px;
 }
 
-.contact-form {
-float: right;
-display: inline-block;
-margin-right: 200px;
+.info {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #dee7ec;
+    margin-bottom: 20px;
+}
+
+.contact-form, .contact-info {
+/*     display: inline-block; */
+    vertical-align: top;
+    margin-top: 20px;
+    padding-left: 100px;
+    padding-right: 150px;
+}
+
+.contact-info ul {
+    list-style-type: none;
+}
+
+.fa {
+    padding-right: 10px;
 }
 
 input, textarea {
-width: 250px;
+width: 300px;
 padding: 12px;
 margin-top: 10px;
 margin-bottom: 15px;
@@ -134,11 +145,43 @@ font-size: 15px;
 border: 1px solid #dee7ec;
 }
 
-.contact-submit {
-background-color: #00b8ff;
-color: white;
-cursor: pointer;
-padding: 15px 40px;
-border-radius: 4px;
-display: block;
+.btn-submit {
+    background-color: #00b8ff;
+    border: 1px solid #00b8ff;
+    color: white;
+    cursor: pointer;
+    padding: 15px 40px;
+    border-radius: 4px;
+}
+
+.btn-submit:hover {
+    background: none;
+    color: #00b8ff;
+}
+
+footer {
+    height: 200px;
+    background-color: #00415a;
+}
+
+.title-footer {
+    float: left;
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: 900;
+    color: white;
+}
+
+.menu-footer {
+    list-style-type: none;
+    line-height: 30px;
+}
+
+.menu-footer li a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu-footer, .title-footer {
+    margin: 25px 100px;
 }
