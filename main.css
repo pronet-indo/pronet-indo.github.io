@@ -90,6 +90,127 @@ header .container {
     color: #f5f5fb;
     background: none;
 }
+/* Start Layout Main About Us*/
+main .container {
+	max-width: 1170px;
+	width: 100%;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+.about-us{
+	background: #f9faff;
+	padding: 60px 60px;
+}
+.about-us-txt{
+	margin-top: 103px;
+	float: left;
+	width: 50%;
+}
+.about-us-txt h2 {
+	color: #44454f;
+	font-size: 40px;
+	font-family: 'Lato', serif;
+	font-weight: 700;
+}
+.about-us-txt p {
+	color: #888;
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+	max-width: 1000px;
+    margin-top: 32px;
+	margin-bottom: 20px;
+    line-height: 1.8;
+}
+
+.about-us-img  {
+	float: right;
+	box-shadow: 0 10px 30px rgba(112,134,230,.2);
+	z-index: 1;
+}
+.main-btn{
+	display: inline-block;
+    color: #f5f5fb;
+    padding: 17px 50px;
+    background: #009bd6;
+    border: 1px solid #009bd6;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.main-btn:hover {
+	color:#009bd6;
+    background: none;
+}
+/* Akhir Layout Main About Us*/
+
+/* Start Layout Our Service*/
+.our-service {
+	margin-top: 450px;
+	padding-left: 5%;
+	padding-right: 5%;
+	text-align: center;
+}
+
+.service-single{
+	float: left;
+	width: 25%;
+}
+.heading {
+	padding-top: 80px;
+	padding-bottom: 50px;
+	color: #5f5d60;
+}
+
+.heading h2 {
+	color: #44454f;
+	font-size: 40px;
+	font-family: 'Lato', serif;
+	font-weight: 700;
+}
+.heading p {
+  color: #888;
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+	max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 32px;
+    line-height: 1.8;
+}
+
+.service-img img{
+	height: 65px;
+	margin: 30px 0;
+}
+.service-single {
+	max-width: 304px;
+    margin: 0 auto;
+   	margin-bottom: 15px;
+	-webkit-transition: .5s; 
+	-moz-transition:.5s; 
+	-ms-transition:.5s; 
+	-o-transition:.5s;
+    transition: .5s;
+}
+.service-txt h2 a {
+	color:#44454f;	
+	font-size:24px;
+}
+
+.service-txt p {
+	color:#756c6a;	
+	font-size:16px;
+	font-family: 'Lato', sans-serif;
+	line-height: 1.67;
+	padding: 30px 10px 10px 10px;
+}
+.service-single:hover{
+	box-shadow:0 5px 20px rgba(112,134,230,.2);
+	opacity: 3;
+	margin: 30px 0;
+}
+/* Akhir Layout Our Service*/
 
 /* FOOT */
 .contact {
