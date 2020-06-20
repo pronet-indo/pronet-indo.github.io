@@ -100,6 +100,7 @@ main .container {
 .about-us{
 	background: #f9faff;
 	padding: 60px 60px;
+    overflow: hidden;
 }
 .about-us-txt{
 	margin-top: 103px;
@@ -147,10 +148,11 @@ main .container {
 
 /* Start Layout Our Service*/
 .our-service {
-	margin-top: 450px;
+    margin-bottom: 100px;
 	padding-left: 5%;
 	padding-right: 5%;
 	text-align: center;
+    overflow: hidden;
 }
 
 .service-single{
@@ -216,6 +218,7 @@ main .container {
 .contact {
     margin-bottom: 80px;
     margin-top: 90px;
+    clear: both;
 }
 
 .contact h2, .info {
