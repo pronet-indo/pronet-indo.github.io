@@ -1,0 +1,13 @@
+@media (max-width: 1000px) {
+    .service-single {
+        width: 50%;
+        float: none;
+        display: inline-block;
+    }
+} 
+
+@media (max-width: 600px;) {
+/*    .service-single {
+        width: 100%;
+    }*/
+}

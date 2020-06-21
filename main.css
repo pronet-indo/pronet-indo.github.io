@@ -103,9 +103,8 @@ main .container {
     overflow: hidden;
 }
 .about-us-txt{
-	margin-top: 103px;
 	float: left;
-	width: 50%;
+	width: 60%;
 }
 .about-us-txt h2 {
 	color: #44454f;
@@ -127,7 +126,7 @@ main .container {
 	float: right;
 	box-shadow: 0 10px 30px rgba(112,134,230,.2);
 	z-index: 1;
-    width: 600px;
+    width: 40%;
 }
 
 .about-us-img img {
