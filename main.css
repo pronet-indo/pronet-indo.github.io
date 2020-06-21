@@ -269,7 +269,6 @@ main .container {
 }
 
 input, textarea {
-    width: 300px;
     padding: 12px;
     margin-top: 10px;
     margin-bottom: 15px;

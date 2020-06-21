@@ -95,6 +95,10 @@
         width: 80%;
     }
     
+    input, textarea {
+        width: 60%;
+    }
+    
     
 }
 
