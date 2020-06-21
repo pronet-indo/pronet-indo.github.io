@@ -35,10 +35,11 @@ nav {
     text-decoration: none;
     margin: auto 20px;
     font-size: 20px;
+    transition: all .3s ease-in-out;
 }
 
 .menu li a:hover {
-    font-weight: 700;
+    border-bottom: 2px solid white;
 }
 
 
@@ -77,11 +78,17 @@ header .container {
     text-transform: uppercase;
     margin-right: 20px;
     margin-bottom: 10px;
+    transition: all 0.6s cubic-bezier(0.68, -0.6, 0.32, 1.6);
 }
 
 .button-hero:hover {
     color: #f5f5fb;
     background: none;
+    transform: scale(1.05);
+}
+
+.main-btn, .btn-submit {
+    transition: all 0.6s ease-in-out;
 }
 /* Start Layout Main About Us*/
 main .container {
@@ -274,6 +281,11 @@ input, textarea {
     margin-bottom: 15px;
     font-size: 15px;
     border: 1px solid #dee7ec;
+    transition: all .5s ease-in-out;
+}
+
+input:focus, textarea:focus {
+    box-shadow: 0 2px 2px rgba(112,134,230,.2);
 }
 
 .btn-submit {
@@ -312,4 +324,8 @@ footer {
 .menu-footer li a {
     text-decoration: none;
     color: white;
+}
+
+.menu-footer li a:hover {
+    border-bottom: solid 1px white;
 }
