@@ -3,7 +3,7 @@
         padding-top: 10%;
     }
     .service-single {
-        width: 50%;
+        width: 60%;
         float: none;
         display: inline-block;
     }
@@ -73,6 +73,28 @@
     footer {
         display: block;
     }
+    
+    .tagline {
+        font-size: 30px;
+    }
+    
+    .describe {
+        font-size: 20px;
+    }
+    
+    .button-hero, .main-btn {
+        padding: 12px 20px;
+        font-size: 15px;
+    }
+    
+    .about-us-txt h2, .heading h2, .contact h2 {
+        font-size: 30px;
+    }
+    
+    .service-single {
+        width: 80%;
+    }
+    
     
 }
 
