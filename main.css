@@ -51,14 +51,12 @@ nav {
 
 
 header {
-    height: 85vh;
     color: white;
     background-image: url(images/laptop.jpg);
     background-size: cover;
 }
 
 header .container {
-    width: 50%;
     padding: 5% 10%;
 }
 
