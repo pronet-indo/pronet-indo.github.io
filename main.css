@@ -219,6 +219,7 @@ main .container {
     margin-top: 90px;
     clear: both;
     color: #44454f;
+    padding: 10%;
 }
 
 .contact h2 {
@@ -255,7 +256,6 @@ main .container {
 .contact-form, .contact-info {
     vertical-align: top;
     margin-top: 20px;
-    width: 30%;
     margin-left: auto;
     margin-right: auto;
 }

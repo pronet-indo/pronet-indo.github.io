@@ -8,10 +8,6 @@
         display: inline-block;
     }
     
-    .contact-form, .contact-info {
-        width: 40%;
-    }
-    
     .menu, .title {
         padding-right: 30px;
         padding-left: 30px;
@@ -26,11 +22,6 @@
 @media (max-width: 768px) {
     .contact-container {
         display: inline-block;
-    }
-    
-    .contact-form, .contact-info {
-        width: 100%;
-        padding: 15%;
     }
     
     .menu, .title {
@@ -96,7 +87,7 @@
     }
     
     input, textarea {
-        width: 60%;
+        width: 90%;
     }
     
     
