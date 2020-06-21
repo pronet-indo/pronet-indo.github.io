@@ -255,7 +255,7 @@ main .container {
 }
 
 .info {
-    padding-bottom: 20px;
+    padding: 0 10% 5% 10%;
     border-bottom: 1px solid #dee7ec;
     margin-bottom: 20px;
 }
@@ -264,8 +264,9 @@ main .container {
 /*     display: inline-block; */
     vertical-align: top;
     margin-top: 20px;
-    padding-left: 100px;
-    padding-right: 150px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .contact-info ul {

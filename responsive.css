@@ -4,10 +4,19 @@
         float: none;
         display: inline-block;
     }
+    
+    .contact-form, .contact-info {
+        width: 40%;
+    }
 } 
 
-@media (max-width: 600px;) {
-/*    .service-single {
+@media (max-width: 768px) {
+    .contact-container {
+        display: inline-block;
+    }
+    
+    .contact-form, .contact-info {
         width: 100%;
-    }*/
+        padding: 15%;
+    }
 }
