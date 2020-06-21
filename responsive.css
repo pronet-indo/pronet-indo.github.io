@@ -70,6 +70,10 @@
         padding: 10px 0;
     }
     
+    footer {
+        display: block;
+    }
+    
 }
 
 @media (min-width: 1001px) {

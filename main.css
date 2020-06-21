@@ -22,10 +22,6 @@ nav {
     color: white;
 }
 
-.menu-footer {
-    float: right;
-}
-
 .menu, .title {
     padding: 25px 60px;
 }
@@ -91,7 +87,6 @@ header .container {
 main .container {
 	max-width: 1170px;
 	width: 100%;
-	padding: 0 15px;
 	margin: 0 auto;
 }
 .about-us{
@@ -274,12 +269,12 @@ main .container {
 }
 
 input, textarea {
-width: 300px;
-padding: 12px;
-margin-top: 10px;
-margin-bottom: 15px;
-font-size: 15px;
-border: 1px solid #dee7ec;
+    width: 300px;
+    padding: 12px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    border: 1px solid #dee7ec;
 }
 
 .btn-submit {
@@ -297,12 +292,13 @@ border: 1px solid #dee7ec;
 }
 
 footer {
-    height: 200px;
     background-color: #00415a;
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 10%;
 }
 
 .title-footer {
-    float: left;
     text-decoration: none;
     font-size: 35px;
     font-weight: 900;
@@ -317,8 +313,4 @@ footer {
 .menu-footer li a {
     text-decoration: none;
     color: white;
-}
-
-.menu-footer, .title-footer {
-    margin: 25px 100px;
 }
