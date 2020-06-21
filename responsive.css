@@ -16,7 +16,11 @@
     .menu, .title {
         padding-right: 30px;
         padding-left: 30px;
-}
+    }
+    
+    .about-us-txt p {
+        margin-top: 5px;
+    }
 
 } 
 
@@ -37,5 +41,14 @@
 
     .button-hero {
         padding: 16px 25px;
+    }
+    
+    .about-us-img {
+        display: none;
+    }
+    
+    .about-us-txt {
+        float: none;
+        width: 100%;
     }
 }
