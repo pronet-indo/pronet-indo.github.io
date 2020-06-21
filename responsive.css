@@ -52,6 +52,26 @@
     }
 }
 
+@media (max-width: 480px) {
+    nav {
+        display: block;
+        text-align: center;
+    }
+    
+    nav .title {
+        display: block;
+    }
+    
+    .title {
+        padding: 10px 0 5px 0;
+    }
+    
+    .menu {
+        padding: 10px 0;
+    }
+    
+}
+
 @media (min-width: 1001px) {
     header .container {
         width: 60%;

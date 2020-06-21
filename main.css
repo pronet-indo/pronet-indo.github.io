@@ -11,22 +11,18 @@ body {
 
 nav {
     background-color: #009bd6;
-    height: 80px;
     display: flex;
     justify-content: space-between;
-/*    position: fixed;
-    width: 100%;*/
 }
 
 .title {
-    float: left;
     text-decoration: none;
     font-size: 25px;
     font-weight: 900;
     color: white;
 }
 
-.menu, .menu-footer {
+.menu-footer {
     float: right;
 }
 
