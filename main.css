@@ -56,8 +56,8 @@ header {
 }
 
 header .container {
-    padding: 100px 80px;
     width: 50%;
+    padding: 5% 10%;
 }
 
 .tagline {
@@ -261,7 +261,6 @@ main .container {
 }
 
 .contact-form, .contact-info {
-/*     display: inline-block; */
     vertical-align: top;
     margin-top: 20px;
     width: 30%;

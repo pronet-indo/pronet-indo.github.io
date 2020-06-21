@@ -1,4 +1,8 @@
 @media (max-width: 1000px) {
+    header .container {
+        width: 70%;
+        padding-top: 10%;
+    }
     .service-single {
         width: 50%;
         float: none;
